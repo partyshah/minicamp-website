@@ -3,7 +3,7 @@ import React from 'react';
 function MiniCamps() {
   return (
     <div>
-      MINI CAMPS
+      HELLO
     </div>
   );
 }
