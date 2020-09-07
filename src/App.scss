@@ -1,0 +1,52 @@
+@import "styles/_base";
+
+body {
+  background-color: $light-yellow;
+  height: 100%;
+}
+
+nav {
+  padding: 32px;
+  height: 100%;
+  text-align: center;
+  width: 318px;
+
+  .logo {
+    margin-bottom: 48px;
+  }
+
+  li {
+    @extend label;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+    &:hover {
+      text-decoration: underline $yellow;
+    }
+    a {
+      display: block;
+    }
+    &.active {
+      &:after,
+      &:before {
+        display: inline-block;
+        content: ' ';
+        background-image: url('sun.svg');
+        background-size: 40px 40px;
+        height: 40px;
+        width: 40px;
+      }
+      &:after {
+        margin-left: 4px;
+      }
+      &:before {
+        margin-right: 4px;
+      }
+    }
+  }
+  p {
+    color: $off-black64;
+    margin-top: 90px;
+  }
+}
