@@ -1,0 +1,18 @@
+@import "_colors";
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+h1, h2, h3, h4, h5, h6, p, a, label {
+  color: $off-black;
+  font-family: "Space Mono", monospace;
+  text-decoration: none;
+}
+
+label {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 17px;
+  line-height: 180%;
+}

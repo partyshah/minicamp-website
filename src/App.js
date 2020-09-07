@@ -10,16 +10,16 @@ import Home from "./components/Home";
 import About from "./components/About";
 import MiniCamps from "./components/MiniCamps";
 
-
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <Router>
     <div>
       <nav>
+        <img className="logo" src={logo} />
         <ul>
-          <li>
+          <li className="active">
             <Link to="/">home</Link>
           </li>
           <li>
@@ -29,6 +29,7 @@ function App() {
             <Link to="/minicamps">mini camps</Link>
           </li>
         </ul>
+        <p>mini camp's mission is to spark your love for learning through playful communities</p>
       </nav>
 
       {/* A <Switch> looks through its children <Route>s and
