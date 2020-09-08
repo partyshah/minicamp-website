@@ -25,13 +25,13 @@ function App() {
       <nav>
         <img className="logo" src={logo} />
         <ul>
-          <li className="active">
+          <li className={toggle.home ? 'active' : ''}>
             <Link onClick={() => setToggle({home: true, about: false, minicamps: false})} to="/">home</Link>
           </li>
-          <li>
+          <li className={toggle.about ? 'active' : ''}>
             <Link onClick={() => setToggle({home: false, about: true, minicamps: false})} to="/about">about</Link>
           </li>
-          <li>
+          <li className={toggle.minicamps ? 'active' : ''}>
             <Link onClick={() => setToggle({home: false, about: false, minicamps: true})} to="/minicamps">mini camps</Link>
           </li>
         </ul>
