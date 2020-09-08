@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import {
   BrowserRouter as Router,
@@ -13,6 +13,12 @@ import MiniCamps from "./components/MiniCamps";
 import './App.scss';
 
 function App() {
+  const [toggle, setToggle] = useState({
+    home: true,
+    about: false,
+    minicamps: false
+  });
+
   return (
     <Router>
     <div>
@@ -20,13 +26,13 @@ function App() {
         <img className="logo" src={logo} />
         <ul>
           <li className="active">
-            <Link to="/">home</Link>
+            <Link onClick={() => setToggle({home: true, about: false, minicamps: false})} to="/">home</Link>
           </li>
           <li>
-            <Link to="/about">about</Link>
+            <Link onClick={() => setToggle({home: false, about: true, minicamps: false})} to="/about">about</Link>
           </li>
           <li>
-            <Link to="/minicamps">mini camps</Link>
+            <Link onClick={() => setToggle({home: false, about: false, minicamps: true})} to="/minicamps">mini camps</Link>
           </li>
         </ul>
         <p>mini camp's mission is to spark your love for learning through playful communities</p>
