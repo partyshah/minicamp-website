@@ -1,3 +1,8 @@
 @import "_reset";
 @import "_colors";
 @import "_typography";
+
+.content {
+  display: flex;
+  margin: 0 60px;
+}

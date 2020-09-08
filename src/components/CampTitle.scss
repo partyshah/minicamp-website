@@ -1,0 +1,46 @@
+@import "../styles/base";
+
+.camp-title {
+  background-image: url("../star.svg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 450px;
+  width: 450px;
+  img {
+    position: absolute;
+    border-radius: 100px;
+    height: 90px;
+    right: 60px;
+    bottom: 60px;
+    width: 90px;
+    &:nth-child(2) {
+      left: 60px;
+      right: 0;
+      top: 90px;
+      bottom: 0;
+    }
+  }
+  &:nth-child(even) {
+    align-self: flex-end;
+  }
+  &:hover {
+    cursor: url("../cursor.png"), pointer;
+    transition: .25s ease-in-out;
+    transform: rotate(-15deg)
+  }
+}
+
+
+
+.tag {
+  background-color: $yellow;
+  display: block;
+  border-radius: 100px;
+  text-align: center;
+  padding: 4px 8px;
+}
