@@ -21,7 +21,7 @@ function App() {
 
   return (
     <Router>
-    <div>
+    <div className="content">
       <nav>
         <img className="logo" src={logo} />
         <ul>

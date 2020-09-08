@@ -1,6 +1,9 @@
 import React from 'react';
 import CampTitle from "./CampTitle"
 
+import "./Home.scss";
+import "./CampTitle.scss";
+
 const camps = [
     {
         title: "curriculum",
@@ -23,7 +26,7 @@ const camps = [
 
 function Home() {
   return (
-    <div>
+    <div className="page-content">
       {camps.map(camp => (
         <CampTitle title={camp.title} subtitle={camp.subtitle} tag={camp.tag} imgpaths={camp.photos}/>
       ))}
