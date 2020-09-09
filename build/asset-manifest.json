@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ba56d751.chunk.css",
+    "main.js": "/static/js/main.1938edcb.chunk.js",
+    "main.js.map": "/static/js/main.1938edcb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8c912ffd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8c912ffd.js.map",
+    "static/js/2.1db8f424.chunk.js": "/static/js/2.1db8f424.chunk.js",
+    "static/js/2.1db8f424.chunk.js.map": "/static/js/2.1db8f424.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.092566ca7d9f7bdd90cf07aa08a637a7.js": "/precache-manifest.092566ca7d9f7bdd90cf07aa08a637a7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ba56d751.chunk.css.map": "/static/css/main.ba56d751.chunk.css.map",
+    "static/js/2.1db8f424.chunk.js.LICENSE.txt": "/static/js/2.1db8f424.chunk.js.LICENSE.txt",
+    "static/media/elizabeth.png": "/static/media/elizabeth.fdce6cf4.png",
+    "static/media/lisa.png": "/static/media/lisa.ab811c33.png",
+    "static/media/logo.svg": "/static/media/logo.211e7149.svg",
+    "static/media/parth.png": "/static/media/parth.96d6da80.png",
+    "static/media/CampTitle.scss": "/static/media/star.6962efce.svg",
+    "static/media/App.scss": "/static/media/sun.0e6a142b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c912ffd.js",
+    "static/js/2.1db8f424.chunk.js",
+    "static/css/main.ba56d751.chunk.css",
+    "static/js/main.1938edcb.chunk.js"
+  ]
+}
