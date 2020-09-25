@@ -11,6 +11,8 @@
   position: relative;
   height: 450px;
   width: 450px;
+  transition: .2s ease-in-out;
+
   img {
     position: absolute;
     border-radius: 100px;
@@ -27,10 +29,13 @@
   }
   &:nth-child(even) {
     align-self: flex-end;
+    &:hover {
+      transform: rotate(15deg)
+    }
   }
   &:hover {
     cursor: url("../cursor.png"), pointer;
-    transition: .25s ease-in-out;
+    transition: .2s ease-in-out;
     transform: rotate(-15deg)
   }
 }
@@ -43,4 +48,30 @@
   border-radius: 100px;
   text-align: center;
   padding: 4px 8px;
+}
+
+@media only screen and (max-width: 1240px) {
+  .page-content {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .camp-title {
+    width: 375px;
+    height: 375px;
+  }
+  .page-content {
+    align-items: center;
+    margin: 0;
+    width: auto;
+  }
+  .camp-title:nth-child(even) {
+    align-self: center;
+  }
+  .camp-title img {
+    &:nth-child(2) {
+      top: 60px;
+    }
+  }
 }
