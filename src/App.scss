@@ -50,3 +50,14 @@ nav {
     margin-top: 90px;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  nav {
+    .logo {
+      margin-bottom: 16px;
+    }
+    p {
+      margin-top: 16px;
+    }
+  }
+}
