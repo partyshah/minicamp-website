@@ -6,7 +6,7 @@ import "./CampTitle.scss";
 
 const camps = [
     {
-        title: "curriculum",
+        title: "teaching",
         subtitle: "is a party",
         tag: "for beginners",
         photos: ["parth"]
