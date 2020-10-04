@@ -35,6 +35,10 @@
   }
   &:hover {
     cursor: url("../cursor.png"), pointer;
+    cursor: -webkit-image-set(
+      url('../cursor.png') 1x,
+      url('../cursor2x.png') 2x
+    ), auto;
     transition: .2s ease-in-out;
     transform: rotate(-15deg)
   }
@@ -50,21 +54,10 @@
   padding: 4px 8px;
 }
 
-@media only screen and (max-width: 1240px) {
-  .page-content {
-    flex-direction: column;
-  }
-}
-
 @media only screen and (max-width: 800px) {
   .camp-title {
     width: 375px;
     height: 375px;
-  }
-  .page-content {
-    align-items: center;
-    margin: 0;
-    width: auto;
   }
   .camp-title:nth-child(even) {
     align-self: center;

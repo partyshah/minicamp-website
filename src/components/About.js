@@ -1,6 +1,8 @@
 import React from 'react';
 import Counselor from "./Counselor"
 
+import "./About.scss";
+
 const counselors = [
   {
       name: "parth",
@@ -29,24 +31,21 @@ const counselors = [
 
 function About() {
   return (
-    <div>
+    <div className="page-content" id="about-page">
       <h1>we believe that learning is a party</h1>
-      <p>Potlucks don't work unless everyone brings something to the table. Your
-        unique perspectives make learning collaborative and community-driven.
+      <p><strong>🍿 A potluck party:</strong> Potlucks don't work unless everyone brings something to the table. Your unique perspectives make learning collaborative and community-driven.
       </p>
-      <br></br>
-      <p>Our learning experiences will challenge you to discover something new
-        and learn in unexpected ways.
+      <p><strong>😱 A surprise party:</strong> Our learning experiences will challenge you to discover something new and learn in unexpected ways.
       </p>
-      <br></br>
-      <p>the most exciting part of any party can be bringing the party back to
-        your community and sharing what you learned.
+      <p><strong>🎉 An afterparty:</strong> the most exciting part of any party can be bringing the party back to your community and sharing what you learned.
       </p>
-      <div>
-      {counselors.map(counselor => (
-        <Counselor name={counselor.name} title={counselor.title} blurb={counselor.blurb}  imgpaths={counselor.photos}/>
-      ))}
-    </div>
+      <h1 style={{marginTop: '80px'}}>meet the counselors</h1>
+      <div className="counselors">
+        {counselors.map(counselor => (
+          <Counselor name={counselor.name} title={counselor.title} blurb={counselor.blurb}  imgpaths={counselor.photos}/>
+        ))}
+      </div>
+      <h2 className="hello-text">talk to us at counselors @ minicamp.fun!</h2>
     </div>
   );
 }
