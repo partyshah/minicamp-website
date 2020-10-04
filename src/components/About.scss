@@ -1,0 +1,87 @@
+#about-page {
+  &.page-content {
+    flex-direction: column;
+  }
+
+  h1 {
+    margin-bottom: 40px;
+    &.counselor_name {
+      margin-bottom: 0;
+    }
+  }
+  p {
+    margin-bottom: 32px;
+    max-width: 730px;
+  }
+}
+
+.counselors {
+  display: flex;
+  flex-direction: row;
+  max-width: 730px;
+}
+
+.counselor {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 33.333%;
+  h1 {
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  h2 {
+    font-size: 17px;
+    line-height: 1.2;
+    margin: 8px 0;
+    text-align: center;
+    opacity: .64;
+  }
+  .counselor_image {
+    border-radius: 100px;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.hello-text {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 32px;
+  max-width: 730px;
+  line-height: 1.2;
+}
+
+@media only screen and (max-width: 1240px) {
+  #about-page.page-content {
+    margin-top: 60px;
+    padding: 0 32px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #about-page.page-content {
+    align-items: flex-start;
+  }
+  .counselors {
+    flex-direction: column;
+  }
+  .counselor {
+    flex-direction: row;
+    margin-bottom: 32px;
+    width: 100%;
+    text-align: left;
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 32px;
+      align-self: flex-start;
+    }
+  }
+}
