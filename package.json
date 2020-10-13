@@ -2,7 +2,7 @@
   "name": "minicamp-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "boring-aryabhata-8e2739.netlify.app/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
