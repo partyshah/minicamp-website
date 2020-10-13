@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -23,7 +23,7 @@ function App() {
     <Router>
     <div className="content">
       <nav>
-        <img className="logo" src={logo} />
+        <img className="logo" src={logo} alt="logo" />
         <ul>
           <li className={toggle.home ? 'active' : ''}>
             <Link onClick={() => setToggle({home: true, about: false, minicamps: false})} to="/">home</Link>
