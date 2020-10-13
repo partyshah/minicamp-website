@@ -36,6 +36,7 @@ function App() {
           </li>
         </ul>
         <p>mini camp's mission is to spark your love for learning through playful communities</p>
+
       </nav>
 
       {/* A <Switch> looks through its children <Route>s and
