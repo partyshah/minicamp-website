@@ -35,6 +35,7 @@
   }
   &:hover {
     cursor: url("../cursor.png"), pointer;
+    cursor: url("../cursor.svg"), pointer;
     cursor: -webkit-image-set(
       url('../cursor.png') 1x,
       url('../cursor2x.png') 2x
