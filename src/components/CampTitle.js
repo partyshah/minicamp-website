@@ -6,7 +6,6 @@ import {
 function CampTitle(props) {
   if (props.title === "figma"){
     return (
-
       <Link className="camp-link" to="/figma">
         <div className="camp-title">
           {props.imgpaths.map(path => (
