@@ -7,14 +7,14 @@ import "./CampPage.scss";
 
 const content = {
       counselors: ["parth shah"],
-      title: "teaching",
+      title: "curriculum",
       subtitle: "is a party",
       tag: "for beginners",
       date: "TBD",
       photos: ["parth"],
-      apply: "https://forms.gle/GgGq95sKvAswvhpX7",
-      description: "blah description blah",
-      outline: ["day 1: blah 1", "day 2: blah 2", "day 3: blah 3", "day 4: blah 4", "day 5: blah 5"]
+      apply: "https://forms.gle/vASR1jiVHSYL7LCg9",
+      description: "this 5 day, 1 hour a day, mini camp will be a retreat for teachers, curriculum developers, engineers, really anyone to come create fun lessons with each other. we will work on critiquing and engaging each other in our lesson development.",
+      outline: ["🤔 day 1: what do you want to teach?", "🤪 day 2: finding the fun", "🔪 day 3: assessing without assessing", "📜 day 4: document with personality", "🎉 day 5: curriculum is a party"]
 
   };
 
@@ -34,7 +34,7 @@ function Teaching() {
           <h2><strong>next class on...</strong></h2>
           <p>{content.date}</p>
         </div>
-        <a className="button-signup" href={content.apply}>apply</a>
+        <a className="button-signup" href={content.apply}>interest form</a>
       </div>
 
         <div className="camp-name">
