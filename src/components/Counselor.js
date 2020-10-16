@@ -9,7 +9,7 @@ function Counselor(props) {
       <div className="text">
         <h1 className="counselor_name">{props.name}</h1>
         <h2>{props.title}</h2>
-        <h3>{props.blurb}</h3>
+        <a className="counselor_link" href={props.link}>{props.link_name}</a>
       </div>
     </div>
   );
