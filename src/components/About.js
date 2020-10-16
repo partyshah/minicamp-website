@@ -36,11 +36,11 @@ function About() {
   return (
     <div className="page-content" id="about-page">
       <h1>we believe that learning is a party</h1>
-      <p><strong>🍿 a potluck party:</strong> potlucks don't work unless everyone brings something to the table. your unique perspectives make learning collaborative and community-driven.
+      <p><strong><span role="img" aria-label="popcorn">🍿</span> a potluck party:</strong> potlucks don't work unless everyone brings something to the table. your unique perspectives make learning collaborative and community-driven.
       </p>
-      <p><strong>😱 a surprise party:</strong> our learning experiences will challenge you to discover something new and learn in unexpected ways.
+      <p><strong><span role="img" aria-label="scream">😱</span> a surprise party:</strong> our learning experiences will challenge you to discover something new and learn in unexpected ways.
       </p>
-      <p><strong>🎉 an afterparty:</strong> the most exciting part of any party can be bringing the party back to your community and sharing what you learned.
+      <p><strong><span role="img" aria-label="party">🎉</span> an afterparty:</strong> the most exciting part of any party can be bringing the party back to your community and sharing what you learned.
       </p>
       <h1 id="counselors-heading" style={{marginTop: '80px'}}>meet the counselors</h1>
       <div className="counselors">
