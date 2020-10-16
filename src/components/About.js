@@ -35,7 +35,7 @@ const counselors = [
 function About() {
   return (
     <div className="page-content" id="about-page">
-      <h1>we believe that learning is a party </h1>
+      <h1>we believe that learning is a party</h1>
       <p><strong><span role="img" aria-label="popcorn">🍿</span> a potluck party:</strong> potlucks don't work unless everyone brings something to the table. your unique perspectives make learning collaborative and community-driven.
       </p>
       <p><strong><span role="img" aria-label="scream">😱</span> a surprise party:</strong> our learning experiences will challenge you to discover something new and learn in unexpected ways.
