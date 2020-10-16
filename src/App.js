@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
-import MiniCamps from "./components/MiniCamps";
 import Figma from "./components/Figma";
 import Teaching from "./components/Teaching";
 

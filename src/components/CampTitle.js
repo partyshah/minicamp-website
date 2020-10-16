@@ -4,7 +4,7 @@ import {
 } from "react-router-dom";
 
 function CampTitle(props) {
-  if (props.title == "figma"){
+  if (props.title === "figma"){
     return (
 
       <Link className="camp-link" to="/figma">
@@ -20,7 +20,7 @@ function CampTitle(props) {
     );
   }
 
-  else if (props.title == "teaching"){
+  else if (props.title === "teaching"){
     return (
       <Link className="camp-link" to="/teaching">
         <div className="camp-title">
