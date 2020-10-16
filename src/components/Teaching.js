@@ -3,7 +3,7 @@ import {
     Link
   } from "react-router-dom";
 import CampTitle from "./CampTitle"
-
+import "./CampPage.scss";
 
 const content = {
       counselors: ["parth shah"],
@@ -20,34 +20,36 @@ const content = {
 
 function Teaching() {
   return (
-    <div>
-        <Link to="/">back</Link>
-      <div>
-        <CampTitle title={content.title} subtitle={content.subtitle} tag={content.tag} imgpaths={content.photos}/>
-     </div>
-      <div>
-        <h2>camp counselors</h2>
-        {content.counselors.map(counselor => (
-            <p>{counselor}</p>
-        ))}
+    <div className="page-content camp-page">
+      <div className="camp-header">
+        <div className="camp-info">
+          <Link className="back-button" to="/">← all mini camps</Link>
+          <div className="camp-info-section">
+            <h2 style={{marginBottom: "0"}}><strong>camp counselors</strong></h2>
+            {content.counselors.map(counselor => (
+                <p>{counselor}</p>
+            ))}
+          </div>
+        <div className="camp-info-section">
+          <h2><strong>next class on...</strong></h2>
+          <p>{content.date}</p>
+        </div>
+        <a className="button-signup" href={content.apply}>apply</a>
       </div>
 
-      <div>
-        <h2>next class on...</h2>
-        <p>{content.date}</p>
+        <div className="camp-name">
+          <CampTitle title={content.title} subtitle={content.subtitle} tag={content.tag} imgpaths={content.photos}/>
+        </div>
       </div>
 
-      <div>
-          <a href={content.apply}>apply</a>
+      <div className="camp-description">
+        <p className="camp-summary">{content.description}</p>
+        <div>
+          {content.outline.map(section => (
+              <p>{section}</p>
+          ))}
+        </div>
       </div>
-
-      <p>{content.description}</p>
-      <div>
-        {content.outline.map(section => (
-            <p>{section}</p>
-        ))}
-      </div>
-      
     </div>
   );
 }

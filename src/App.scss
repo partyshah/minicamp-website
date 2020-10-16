@@ -105,9 +105,33 @@ nav {
   }
 }
 
+.button-signup {
+  font-size: 17px;
+  width: auto;
+  background: $yellow;
+  border: 2px solid $off-black;
+  border-radius: 4px;
+  color: $off-black;
+  margin-top: 16px;
+  padding: 4px 20px 6px 20px;
+  &:hover {
+    background: $off-black;
+    color: white;
+    cursor: url("cursor.png"), pointer;
+    cursor: url("cursor.svg"), pointer;
+    cursor: -webkit-image-set(
+      url('cursor.png') 1x,
+      url('cursor2x.png') 2x
+    ), auto;
+  }
+}
+
 @media only screen and (max-width: 1240px) {
   .page-content {
     flex-direction: column;
+  }
+  #mailchimp-signup .button {
+    padding: 12px 32px;
   }
 }
 

@@ -1,5 +1,6 @@
 @import "../styles/base";
 
+
 .camp-title {
   background-image: url("../star.svg");
   background-size: cover;
@@ -12,6 +13,10 @@
   height: 450px;
   width: 450px;
   transition: .2s ease-in-out;
+
+  a {
+    display: block;
+  }
 
   img {
     position: absolute;
