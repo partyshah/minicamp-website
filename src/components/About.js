@@ -7,7 +7,8 @@ const counselors = [
   {
       name: "parth",
       title: "dean of fun",
-      blurb: "blah blah blah",
+      link: "https://pedagogybyparth.com/",
+      link_name: "pedagogy by parth",
       photos: ["parth"]
 
   },
@@ -15,7 +16,8 @@ const counselors = [
   {
     name: "lisa",
     title: "resident vibe reader",
-    blurb: "blah blah blah",
+    link: "https://www.bylisainoue.com/",
+    link_name: "by lisa inoue",
     photos: ["lisa"]
 
   },
@@ -23,7 +25,8 @@ const counselors = [
   {
     name: "elizabeth",
     title: "chief party princess",
-    blurb: "she's currently the founding designer at primer!",
+    link: "https://designisaparty.com/",
+    link_name: "design is a party",
     photos: ["elizabeth"]
 
   }
@@ -42,7 +45,7 @@ function About() {
       <h1 id="counselors-heading" style={{marginTop: '80px'}}>meet the counselors</h1>
       <div className="counselors">
         {counselors.map(counselor => (
-          <Counselor name={counselor.name} title={counselor.title} blurb={counselor.blurb}  imgpaths={counselor.photos}/>
+          <Counselor name={counselor.name} title={counselor.title} link={counselor.link} link_name={counselor.link_name} imgpaths={counselor.photos}/>
         ))}
       </div>
       <h2 className="hello-text">talk to us at counselors @ minicamp.fun!</h2>

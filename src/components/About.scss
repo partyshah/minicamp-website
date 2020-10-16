@@ -39,9 +39,14 @@
     text-align: center;
     opacity: .64;
   }
-  h3 {
+  .counselor_link {
+    font-size: 12px;
+    font-style: italic;
     text-align: center;
     line-height: 1.4;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   .counselor_image {
     border-radius: 100px;
