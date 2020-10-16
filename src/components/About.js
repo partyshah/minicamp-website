@@ -39,7 +39,7 @@ function About() {
       </p>
       <p><strong>🎉 an afterparty:</strong> the most exciting part of any party can be bringing the party back to your community and sharing what you learned.
       </p>
-      <h1 style={{marginTop: '80px'}}>meet the counselors</h1>
+      <h1 id="counselors-heading" style={{marginTop: '80px'}}>meet the counselors</h1>
       <div className="counselors">
         {counselors.map(counselor => (
           <Counselor name={counselor.name} title={counselor.title} blurb={counselor.blurb}  imgpaths={counselor.photos}/>

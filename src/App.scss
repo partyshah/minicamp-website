@@ -1,5 +1,46 @@
 @import "styles/_base";
 
+#mailchimp-signup {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  input {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: none;
+    border: 2px solid $off-black;
+    border-radius: 4px;
+    padding: 4px 12px;
+    width: 80%;
+    &:focus,
+    &:active {
+      border: 2px solid $yellow;
+      outline: none;
+    }
+  }
+  .button {
+    width: auto;
+    background: $off-black;
+    color: white;
+    margin-top: 16px;
+    padding: 4px 20px;
+    &:hover {
+      background: $yellow;
+      color: black;
+      cursor: url("cursor.png"), pointer;
+      cursor: url("cursor.svg"), pointer;
+      cursor: -webkit-image-set(
+        url('cursor.png') 1x,
+        url('cursor2x.png') 2x
+      ), auto;
+    }
+  }
+  #hidden-input {
+    display: none;
+  }
+}
+
 .overlay {
   width: 100vw;
   height: 100vh;

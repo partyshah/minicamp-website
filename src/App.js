@@ -36,7 +36,15 @@ function App() {
           </li>
         </ul>
         <p>mini camp's mission is to spark your love for learning through playful communities</p>
-
+        <div id="mailchimp-signup">
+          <form action="https://fun.us2.list-manage.com/subscribe/post?u=f69a43d82d0c255d1968f08e5&amp;id=a8c4e3fdfb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+            <div id="mc_embed_signup_scroll">
+            	<input type="email" name="EMAIL" className="email" id="mce-EMAIL" placeholder="💌 email address" required />
+              <div id="hidden-input" aria-hidden="true"><input type="text" name="b_f69a43d82d0c255d1968f08e5_a8c4e3fdfb" tabIndex="-1" /></div>
+              <input type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" />
+            </div>
+          </form>
+        </div>
       </nav>
 
       {/* A <Switch> looks through its children <Route>s and
