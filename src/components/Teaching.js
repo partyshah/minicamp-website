@@ -7,7 +7,7 @@ import "./CampPage.scss";
 
 const content = {
       counselors: ["parth shah"],
-      title: "teaching",
+      title: "curriculum",
       subtitle: "is a party",
       tag: "for beginners",
       date: "TBD",

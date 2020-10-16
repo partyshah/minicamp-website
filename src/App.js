@@ -55,7 +55,7 @@ function App() {
         <Route path="/figma">
           <Figma />
         </Route>
-        <Route path="/teaching">
+        <Route path="/curriculum">
           <Teaching />
         </Route>
         <Route path="/">
