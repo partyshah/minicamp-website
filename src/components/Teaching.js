@@ -13,7 +13,7 @@ const content = {
       date: "TBD",
       photos: ["parth"],
       apply: "https://forms.gle/vASR1jiVHSYL7LCg9",
-      description: "this 5 day mini camp will be a retreat for teachers, curriculum developers, engineers, really anyone to come create fun lessons with each other. we will work on critiquing and engaging each other in our lesson development.",
+      description: "this 5 day, 1 hour a day, mini camp will be a retreat for teachers, curriculum developers, engineers, really anyone to come create fun lessons with each other. we will work on critiquing and engaging each other in our lesson development.",
       outline: ["🤔 day 1: what do you want to teach?", "🤪 day 2: finding the fun", "🔪 day 3: assessing without assessing", "📜 day 4: document with personality", "🎉 day 5: curriculum is a party"]
 
   };
