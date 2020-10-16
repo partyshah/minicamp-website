@@ -20,9 +20,9 @@ function CampTitle(props) {
     );
   }
 
-  else if (props.title === "teaching"){
+  else if (props.title === "curriculum"){
     return (
-      <Link className="camp-link" to="/teaching">
+      <Link className="camp-link" to="/curriculum">
         <div className="camp-title">
           {props.imgpaths.map(path => (
               <img height="120px" width="120px" src={require('../assets/' + path + ".png")} alt=''/>
