@@ -10,7 +10,7 @@ const content = {
       title: "curriculum",
       subtitle: "is a party",
       tag: "for beginners",
-      date: "TBD",
+      date: "tbd",
       photos: ["parth"],
       apply: "https://forms.gle/vASR1jiVHSYL7LCg9",
       description: "this 5 day, 1 hour a day, mini camp will be a retreat for teachers, curriculum developers, engineers, really anyone to come create fun lessons with each other. we will work on critiquing and engaging each other in our lesson development.",
@@ -31,7 +31,7 @@ function Teaching() {
             ))}
           </div>
         <div className="camp-info-section">
-          <h2><strong>next class on...</strong></h2>
+          <h2><strong>next class on</strong></h2>
           <p>{content.date}</p>
         </div>
         <a className="button-signup" href={content.apply}>interest form</a>
