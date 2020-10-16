@@ -9,6 +9,9 @@ import {
 import Home from "./components/Home";
 import About from "./components/About";
 import MiniCamps from "./components/MiniCamps";
+import Figma from "./components/Figma";
+import Teaching from "./components/Teaching";
+
 
 import './App.scss';
 
@@ -31,9 +34,6 @@ function App() {
           <li className={toggle.about ? 'active' : ''}>
             <Link onClick={() => setToggle({home: false, about: true, minicamps: false})} to="/about">about</Link>
           </li>
-          <li className={toggle.minicamps ? 'active' : ''}>
-            <Link onClick={() => setToggle({home: false, about: false, minicamps: true})} to="/minicamps">mini camps</Link>
-          </li>
         </ul>
         <p>mini camp's mission is to spark your love for learning through playful communities</p>
         <div id="mailchimp-signup">
@@ -53,8 +53,11 @@ function App() {
         <Route path="/about">
           <About />
         </Route>
-        <Route path="/minicamps">
-          <MiniCamps />
+        <Route path="/figma">
+          <Figma />
+        </Route>
+        <Route path="/teaching">
+          <Teaching />
         </Route>
         <Route path="/">
           <Home />
