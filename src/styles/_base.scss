@@ -2,6 +2,10 @@
 @import "_colors";
 @import "_typography";
 
+*::selection {
+  background: #FFD6EE;
+}
+
 .page-content {
   display: flex;
   margin-left: 60px;
