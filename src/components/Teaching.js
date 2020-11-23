@@ -10,11 +10,11 @@ const content = {
       title: "curriculum",
       subtitle: "is a party",
       tag: "for beginners",
-      date: "tbd",
+      date: "jan 4th - jan 7th @ 7-8 PST",
       photos: ["parth"],
-      apply: "https://forms.gle/vASR1jiVHSYL7LCg9",
-      description: "this 5 day, 1 hour a day, mini camp will be a retreat for teachers, curriculum developers, engineers, really anyone to come create fun lessons with each other. we will work on critiquing and engaging each other in our lesson development.",
-      outline: ["🤔 day 1: what do you want to teach?", "🤪 day 2: finding the fun", "🔪 day 3: assessing without assessing", "📜 day 4: document with personality", "🎉 day 5: curriculum is a party"]
+      apply: "https://forms.gle/2mr5Ez6ZvsyXAgXj7",
+      description: "this 4 day, 1 hour a day, mini camp will be a retreat for teachers, curriculum developers, engineers, really anyone to come create fun lessons with each other. we will work on critiquing and engaging each other in our lesson development.",
+      outline: ["🤔 day 1: what do you want to teach?", "🤪 day 2: finding the fun", "🔪 day 3: assessing without assessing", "📜 day 4: document with personality"]
 
   };
 
@@ -34,7 +34,7 @@ function Teaching() {
           <h2><strong>next class on</strong></h2>
           <p>{content.date}</p>
         </div>
-        <a className="button-signup" href={content.apply}>interest form</a>
+        <a className="button-signup" href={content.apply}>apply</a>
       </div>
 
         <div className="camp-name">
