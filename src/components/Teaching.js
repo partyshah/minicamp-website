@@ -10,7 +10,7 @@ const content = {
       title: "curriculum",
       subtitle: "is a party",
       tag: "for beginners",
-      date: "jan 4th - jan 7th @ 7-8 PST",
+      date: "feb 1st - feb 4th @ 7-8 PST",
       photos: ["parth"],
       apply: "https://forms.gle/2mr5Ez6ZvsyXAgXj7",
       description: "this 4 day, 1 hour a day, mini camp will be a retreat for teachers, curriculum developers, engineers, really anyone to come create fun lessons with each other. we will work on critiquing and engaging each other in our lesson development.",
