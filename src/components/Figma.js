@@ -12,7 +12,7 @@ const content = {
       tag: "for beginners",
       date: "jan 28th @ 5 - 7:30 pm pst and jan 29th @ 5 - 6:30 pm pst",
       photos: ["elizabeth", "lisa"],
-      apply: "https://forms.gle/LYstaPE6FMen2ips8",
+      apply: "https://forms.gle/f2gUPcNXBYEMTfjP7",
       description: "learn the basics of figma in this 4-hour online class. no previous design tool knowledge is required. we will not cover components or design principles in this class. at the end of this class, you will be able to navigate and use figma to start creating basic ui, illustrations, layouts, and more!",
       outline: ["🎨 topic 1: element & color", "✍️ topic 2: type", "📐 topic 3: alignment", "🧽 topic 4: effects & blending modes", "🎀 topic 5: putting it all together"]
 
